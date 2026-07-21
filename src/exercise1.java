@@ -16,7 +16,7 @@ public class exercise1 {
 
         int age = atualDataYear - yearOfBorn;
 
-        System.out.printf("Ola %s você tem %s anos.%n", name, age);
+        System.out.printf("Ola %s você tem %s anos.\n", name, age);
         scanner.close();
     }
 }
