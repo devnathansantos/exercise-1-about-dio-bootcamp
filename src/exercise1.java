@@ -5,10 +5,10 @@ public class exercise1 {
     public static void main (String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Digite seu nome: ");
+        System.out.println("Digite seu nome: \n");
         String name = scanner.nextLine();
 
-        System.out.println("Digite o ano do seu nascimento: ");
+        System.out.println("Digite o ano do seu nascimento: \n");
         int yearOfBorn = scanner.nextInt();
 
         LocalDate atualData = LocalDate.now();

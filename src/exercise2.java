@@ -4,7 +4,7 @@ public class exercise2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Digite o lado do quadrado: ");
+        System.out.print("Digite o lado do quadrado: \n");
         double lado = scanner.nextDouble();
         double area = lado * lado;
 
